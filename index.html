@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mega Sorteo</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <div id="image-container">
+            <img src="./logo_liana_2021_tipo_color.png" alt="Tu Imagen">
+        </div>
+        
+        <div id="canvas-container">
+            <canvas id="canvas" width="500" height="500"></canvas>
+            <button id="spin-button" onclick="startSpin()">¡Girar!</button>
+        </div>
+        
+        <div id="result"></div>
+
+        <button id="spin-button" onclick="reloadPage()">Reiniciar</button>
+        <script src="./main.js"></script>
+    </body>
+</html>

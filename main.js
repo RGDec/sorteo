@@ -36,7 +36,7 @@ function startSpin() {
             clearInterval(spinInterval);
             selectedSegmentIndex = getSelectedSegment(Math.floor(Math.random() * stringsList.length));
             const selectedString = stringsList[selectedSegmentIndex];
-            resultElement.innerText = `¡Opción seleccionada: ${selectedString}!`;
+            resultElement.innerText = `¡Ganador del Sorteo: ${selectedString}!`;
 
             drawWheelAfterSelection();
             selectedSegmentIndex = -1; // Restablecer el índice para el próximo giro

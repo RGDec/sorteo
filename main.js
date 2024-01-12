@@ -69,7 +69,7 @@ function drawWheel(context, centerX, centerY, radius, numSegments, segmentAngle)
 
         // Cambiar el color de fondo del segmento seleccionado
         if (i === selectedSegmentIndex) {
-            context.fillStyle = "#E900E8";
+            context.fillStyle = "#33ec00";
         } else {
             context.fillStyle = colors[i % colors.length];
         }

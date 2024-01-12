@@ -29,6 +29,7 @@ body {
     transition: opacity 1s ease-in-out;
     color: #E900E8;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #spin-button {
